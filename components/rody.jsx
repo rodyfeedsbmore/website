@@ -14,7 +14,7 @@ export default function Rody() {
 
           <p className="kicker">
            Currently living in Baltimore, MD. My goal is to make access to food easier and a human right for all.
-            Donations are appreciated and go directly to purchasing food, bags, and gas for the bags.
+            Donations are appreciated and go directly to purchasing food, bags, and gas for my trip around Baltimore.
           </p>
 
     </section>
