@@ -57,7 +57,7 @@ h1 {
 }
 
 .kicker,
-h2 {
+h2, .h2 {
   font-size: 1.35rem;
   font-weight: 700;
   color: var(--muted);
@@ -138,3 +138,39 @@ a {
   text-align: center;
 }
 
+
+/* center and basic layout */
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Arial, sans-serif;
+}
+
+.sentence {
+  font-size: 28px;
+  color: #333;
+}
+
+/* number styling + slide-up animation */
+.number {
+  display: inline-block;
+  margin: 0 8px;
+  font-weight: 700;
+  font-size: 32px;
+  transform-origin: center;
+  animation: slideUp 300ms ease-out;
+}
+
+/* slight upward motion from below */
+@keyframes slideUp {
+  0% {
+    transform: translateY(5px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

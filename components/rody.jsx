@@ -2,6 +2,7 @@
 export default function Rody() {
   return (
     <section className="container-inner card">
+
           <img
             className="profile"
             src="./rody.jpg"
@@ -12,12 +13,10 @@ export default function Rody() {
           <h1 className="title">Welcome, I&apos;m Rody!</h1>
 
           <p className="kicker">
-            Living in Baltimore, Maryland, I make cold sandwiches and water bottle goodie bags for people in need.
+            My goal is to make access to food easier and a human right for all.
+            Donations are appreciated and go directly to purchasing food, bags, and gas for the bags.
           </p>
 
-          <h2>
-            Small donations helps support my mission.
-          </h2>
     </section>
   );
 }
